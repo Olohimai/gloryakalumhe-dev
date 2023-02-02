@@ -1,11 +1,16 @@
 import React from "react";
 import Header from "./components/Header";
-import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Skills from "./components/Skills"; 
+import About from "./components/About";
+
 function App() {
   return (
     <div className="">
-      <Header />
+      <Header id="home" />
       <Skills />
+      <Project />
+      <About />
     </div>
   );
 }

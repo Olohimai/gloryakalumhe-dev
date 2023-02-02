@@ -2,24 +2,45 @@ import React from 'react';
 import { Link } from 'react-scroll';
 function Navbar() {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg  p-4 ">
-                <div className="container-fluid fixed-top bg-white py-3 px-5">
-                    <Link to="" className="navbar-brand" href="#">Glory-Akalumhe</Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+        <div className='px-6 py-6 lg:px-8 fixed top-0  inset-x-0 bg-yellow-100'>
+            <nav className="flex items-center justify-between">
+                <div className="flex lg:flex-1">
+                    <Link to="" 
+                        className="font-bold text-3xl text-yellow-200">Glory-Akalumhe.</Link>
+                </div>
+                <div className='flex lg:hidden'>
+                    <button className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className=""></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav">
-                            <Link to="" className="nav-link active" aria-current="page" href="#">Home</Link>
-                            <Link to="skills" className="nav-link" href="#">Skills</Link>
-                            <Link to="project" className="nav-link" href="#">Project</Link>
-                            <Link to="about-me" className="nav-link" href='#'>About Me</Link>
-                        </div>
-                    </div>
-                    <div className='d-flex'>
-                        < Link to="" className="nav-link border rounded-pill p-2" href='#'>View Resume</Link>
-                    </div>
+                </div>
+                <div className="hidden lg:flex lg:gap-x-12">
+                    <Link to="home"
+                        smooth={true}
+                        spy={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-sm font-semibold cursor-pointer leading-6 text-gray-900" aria-current="page">Home</Link>
+                    <Link to="skills"
+                        smooth={true}
+                        spy={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-sm font-semibold cursor-pointer leading-6 text-gray-900">Skills</Link>
+                    <Link to="project"
+                        smooth={true}
+                        spy={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-sm font-semibold cursor-pointer leading-6 text-gray-900">Project</Link>
+                    <Link to="about-me"
+                        smooth={true}
+                        spy={true}
+                        offset={-70}
+                        duration={500}
+                        className="text-sm font-semibold cursor-pointer leading-6 text-gray-900">About Me</Link>
+                </div>
+                <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
+                    < Link to="" className="bg-yellow-200 text-sm font-semibold cursor-pointer leading-6 text-white border rounded-full py-2 px-3">View Resume</Link>
                 </div>
             </nav>
         </div>
