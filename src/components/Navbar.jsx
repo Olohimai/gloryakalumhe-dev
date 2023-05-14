@@ -38,6 +38,8 @@ function Navbar() {
                         offset={-70}
                         duration={500}
                         className="text-sm font-semibold cursor-pointer leading-6 text-gray-900">About Me</Link>
+                    <a href="https://github.com/Olohimai"
+                        className="text-sm font-semibold cursor-pointer leading-6 text-gray-900">Github Account</a>
                 </div>
                 <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
                     < Link to="" className="bg-yellow-200 text-sm font-semibold cursor-pointer leading-6 text-white border rounded-full py-2 px-3">View Resume</Link>
