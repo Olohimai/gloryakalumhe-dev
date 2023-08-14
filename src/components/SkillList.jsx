@@ -88,6 +88,20 @@ function SkillList(props) {
             skill:
                 'VueJs',
         },
+        {
+            id: 14,
+            source:
+                'images/icons/MySQL.png',
+            skill:
+                'MySQL',
+        },
+        {
+            id: 15,
+            source:
+                'images/icons/aws logo.png',
+            skill:
+                'Amazon Web Services',
+        },
     ]
   return (
     <div>
