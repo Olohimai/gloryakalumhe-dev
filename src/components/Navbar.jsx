@@ -42,7 +42,10 @@ const Navbar = () => {
                                 </Link>
                             </li>))
                     }
-                    <button className='btn bg-yellow-200 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static'>View Resume</button>
+                    <a href="https://drive.google.com/file/d/1_1YSA35OCMd44r7EpJosITYheOHlWuSp/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn bg-yellow-200 text-white md:ml-8 font-semibold px-3 py-1 rounded duration-500 md:static">
+                        View Resume
+                    </a>
+
                 </ul>
                 {/* button */}
             </div>
