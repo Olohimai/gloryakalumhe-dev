@@ -6,7 +6,7 @@ const Navbar = () => {
     let Links = [
         { name: "Home", link: "home" }, // Use the target element's ID here
         { name: "Skills", link: "skills" }, // Use the target element's ID here
-        { name: "Project", link: "project" }, // Use the target element's ID here
+        { name: "Projects", link: "project" }, // Use the target element's ID here
         { name: "About Me", link: "about-me" }, // Use the target element's ID here
     ];
     let [open, setOpen] = useState(false);
@@ -25,7 +25,7 @@ const Navbar = () => {
                     }
                 </div>
                 {/* linke items */}
-                <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-yellow-100 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12' : 'top-[-490px]'}`}>
+                <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-yellow-100 md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-12 pt-8' : 'top-[-490px]'}`}>
                     {
                         Links.map((link) => (
                             <li className='md:ml-8 md:my-0 my-7 font-semibold cursor-pointer' key={link.name}>
