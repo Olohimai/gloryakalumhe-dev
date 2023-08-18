@@ -10,9 +10,7 @@ function Project() {
                     <li className='font-semibold'>digikraaft.ng: <span className='font-medium text-yellow-200'><a href='https://www.digikraaft.ng' className='cursor-pointer'>https://www.digikraaft.ng</a></span>
                     </li>
                     <li className='font-semibold'>onedata.ng: <span className='font-medium text-yellow-200'><a href='https://www.onedata.ng' className='cursor-pointer'>https://www.onedata.ng</a></span>
-                    </li>
-                    {/* <li className='font-semibold'>ips-ecd.uk.net: <br /><span className='font-medium text-yellow-200'><a href='https://www.ips-ecd.uk.net' className='cursor-pointer'>https://www.ips-ecd.uk.net.ng</a></span>
-                    </li> */}
+                    </li> 
                     <li className='font-semibold'>ips-ecd.uk.net: <br /> <span className='font-medium text-yellow-200'>
                         <a href='https://www.ips-ecd.uk.net' className='cursor-pointer'>https://www.ips-ecd.uk.net</a></span>
                     </li>
