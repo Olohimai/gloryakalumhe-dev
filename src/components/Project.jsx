@@ -11,7 +11,7 @@ function Project() {
                     </li>
                     <li className='font-semibold'>onedata.ng: <span className='font-medium text-yellow-200'><a href='https://www.onedata.ng' className='cursor-pointer'>https://www.onedata.ng</a></span>
                     </li>
-                    <li className='font-semibold'>ips-ecd.uk.net: <br/><span className='font-medium text-yellow-200'><a href='https://www.ips-ecd.uk.net' className='cursor-pointer'>https://www.ips-ecd.uk.net.ng</a></span>
+                    <li className='font-semibold'>ips-ecd.uk.net: <br /><span className='font-medium text-yellow-200'><a href='https://www.ips-ecd.uk.net' className='cursor-pointer'>https://www.ips-ecd.uk.net.ng</a></span>
                     </li>
                     <li className='font-semibold'>ips-ecd.uk.net: <br /> <span className='font-medium text-yellow-200'>
                         <a href='https://www.ips-ecd.uk.net' className='cursor-pointer'>https://www.ips-ecd.uk.net</a></span>
@@ -26,11 +26,10 @@ function Project() {
                     </li>
                     <li className='font-semibold'>Igoal.finance: <span className='font-medium text-yellow-200'><a href='https://www.igoal.finance/' className='cursor-pointer'>https://www.igoal.finance/</a></span>
                     </li>
-                    <li className='font-semibold'>hartbeeps.com: <span className='font-medium text-yellow-200'><a href='https://www.hartbeeps.com' className='cursor-pointer'>https://www.hartbeeps.com</a></span>
+                    <li className='font-semibold'>prividaenergy.com: <span className='font-medium text-yellow-200'><a href='https://www.prividaenergy.com/' className='cursor-pointer'>https://www.prividaenergy.com/</a></span>
                     </li>
                 </ul>
             </div>
-
         </div>
     )
 }
